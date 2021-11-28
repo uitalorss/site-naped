@@ -118,9 +118,9 @@ header {
 
 .noticia-secundaria p {
   font-size: 0.75em;
-  line-height: 1em;
+  line-height: 1.5em;
   position: absolute;
-  top: 120px;
+  top: 100px;
   padding: 6px;
   color: #ffffff;
 }
@@ -134,6 +134,30 @@ header {
 
 .lista-news {
   width: 60%;
+}
+
+.lateral-news {
+  margin-left: auto;
+  margin-bottom: 15px;
+}
+
+.lateral-news h3 {
+  color: #ffffff;
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.lateral-news h3::before {
+  content: '';
+  position: absolute;
+  border-bottom: 3px solid #8257e6;
+  width: 250px;
+  left: 1245px;
+  bottom: 40px;
+}
+
+.lateral-news .noticia-secundaria p {
+  top: 170px;
 }
 
 .bloco-news {
