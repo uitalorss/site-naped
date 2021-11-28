@@ -78,11 +78,17 @@ header {
 }
 
 /* Sessão principal de notícias */
-.noticia img {
+.main {
+  margin-bottom: 50px;
+}
+
+.noticia img,
+.bloco-news li img {
   -webkit-mask-image: linear-gradient(to top, transparent 2%, black 95%);
 }
 
-.noticia img:hover {
+.noticia img:hover,
+.bloco-news li img:hover {
   -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 0%);
 }
 
@@ -122,4 +128,47 @@ header {
 .principal-noticia p,
 .noticia-secundaria p {
   text-shadow: 2px 2px #000000;
+}
+
+/* Sessão secundária de notícias */
+
+.lista-news {
+  width: 60%;
+}
+
+.bloco-news {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.bloco-news a {
+  text-decoration: none;
+}
+
+.info-noticia {
+  margin-left: 15px;
+}
+
+.link-noticia {
+  font-size: 1em;
+  color: #ffffff;
+  line-height: 1.5em;
+}
+
+.info-noticia p {
+  margin-top: 5px;
+  color: #c4c4c4;
+  font-size: 0.75em;
+  line-height: 1.5em;
+}
+
+.data {
+  margin-bottom: 16px;
+}
+
+.botao-noticia {
+  padding: 8px 5px;
+  color: #ffffff;
+  background: #8257e6;
+  border-radius: 5px;
 }
