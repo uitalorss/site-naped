@@ -76,3 +76,50 @@ header {
   color: #c4c4c4;
   line-height: 2em;
 }
+
+/* Sessão principal de notícias */
+.noticia img {
+  -webkit-mask-image: linear-gradient(to top, transparent 2%, black 95%);
+}
+
+.noticia img:hover {
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 0%);
+}
+
+.outras-noticias {
+  display: block;
+  margin-left: auto;
+}
+
+.noticia {
+  margin-bottom: 1em;
+  box-shadow: 60px teal;
+}
+
+.principal-noticia,
+.noticia-secundaria {
+  position: relative;
+}
+
+.principal-noticia p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  position: absolute;
+  top: 260px;
+  padding: 15px;
+  color: #ffffff;
+}
+
+.noticia-secundaria p {
+  font-size: 0.75em;
+  line-height: 1em;
+  position: absolute;
+  top: 120px;
+  padding: 6px;
+  color: #ffffff;
+}
+
+.principal-noticia p,
+.noticia-secundaria p {
+  text-shadow: 2px 2px #000000;
+}
