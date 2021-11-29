@@ -132,6 +132,10 @@ header {
 
 /* Sessão secundária de notícias */
 
+.news {
+  margin-bottom: 50px;
+}
+
 .lista-news {
   width: 60%;
 }
@@ -141,19 +145,11 @@ header {
   margin-bottom: 15px;
 }
 
-.lateral-news h3 {
+.lateral-news h3,
+.most-recents h3 {
   color: #ffffff;
   font-size: 1.5em;
   margin-bottom: 30px;
-}
-
-.lateral-news h3::before {
-  content: '';
-  position: absolute;
-  border-bottom: 3px solid #8257e6;
-  width: 250px;
-  left: 1245px;
-  bottom: 40px;
 }
 
 .lateral-news .noticia-secundaria p {
@@ -195,4 +191,46 @@ header {
   color: #ffffff;
   background: #8257e6;
   border-radius: 5px;
+}
+
+/* Última sessão de notícias */
+
+.most-recents {
+  margin-bottom: 30px;
+}
+
+.lista-recentes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lista-recentes .noticia-secundaria p {
+  width: 90%;
+  top: 180px;
+}
+
+.item-recente {
+  width: 30%;
+  margin: 10px 42px 10px 0;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+}
+
+footer .title {
+  margin: 10px auto;
+}
+
+.conteudo-footer {
+  flex-direction: column;
+}
+
+.conteudo-footer p {
+  width: 40%;
+  margin: 20px auto;
+  text-align: center;
+  color: #c4c4c4;
 }
