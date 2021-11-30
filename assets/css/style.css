@@ -234,3 +234,38 @@ footer .title {
   text-align: center;
   color: #c4c4c4;
 }
+
+/* Notícia */
+
+.noticia-completa {
+  margin: 60px 0;
+}
+
+.noticia-completa .info-noticia {
+  width: 100%;
+}
+
+.noticia-completa h2 {
+  color: #ffffff;
+  font-size: 2em;
+}
+
+.noticia-completa .subtitulo {
+  color: #c4c4c4;
+  font-size: 1.25em;
+}
+
+.paragrafo-noticia {
+  flex-direction: column;
+}
+
+article {
+  margin: 40px 0;
+}
+
+article p {
+  color: #c4c4c4;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 10px 0;
+}
