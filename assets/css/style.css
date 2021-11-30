@@ -242,7 +242,7 @@ footer .title {
 }
 
 .noticia-completa .info-noticia {
-  width: 100%;
+  margin: 20px 0 20px 0;
 }
 
 .noticia-completa h2 {
@@ -268,4 +268,27 @@ article p {
   font-size: 1em;
   line-height: 1.5em;
   margin: 10px 0;
+}
+
+/* Página anime */
+.apresentacao-anime {
+  flex-direction: column;
+  margin: 60px 0;
+}
+
+.apresentacao-anime input {
+  padding: 15px 0 15px 0;
+  width: 100%;
+  background-color: #282830;
+  border: none;
+}
+
+.apresentacao-anime input::placeholder {
+  color: #c4c4c4;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.25em;
+}
+
+.apresentacao-anime img {
+  margin-bottom: 40px;
 }
