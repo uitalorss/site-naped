@@ -129,7 +129,7 @@ header {
   -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 0%);
 }
 
-.outras-noticias {
+.cards-secundarios {
   display: block;
   margin-left: auto;
 }
@@ -168,12 +168,28 @@ header {
 }
 
 @media only screen and (max-width: 480px) {
-  .principal-noticia {
-    display: block;
+  .area-principal {
+    flex-direction: column;
   }
 
-  .principal-noticia a img {
+  card-principal {
+    margin-bottom: 10px;
+  }
+
+  .card-principal img,
+  .cards-secundarios img {
     width: 100%;
+  }
+
+  .principal-noticia p {
+    font-size: 1em;
+    top: 100px;
+  }
+
+  .cards-secundarios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
