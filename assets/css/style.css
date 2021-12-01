@@ -19,6 +19,12 @@ h6 {
   display: flex;
 }
 
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+}
+
 /* Header */
 header {
   padding-top: 1.5em;
@@ -77,6 +83,35 @@ header {
   line-height: 2em;
 }
 
+@media only screen and (max-width: 480px) {
+  .row {
+    display: block;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .nav {
+    margin: 15px 0;
+    padding: 10px;
+  }
+
+  .item-especial {
+    display: none;
+  }
+
+  .intro h1 {
+    margin: 5px;
+    font-size: 2.25em;
+  }
+
+  .paragrafo {
+    width: 100%;
+    margin: 5px;
+  }
+}
+
 /* Sessão principal de notícias */
 .main {
   margin-bottom: 50px;
@@ -130,6 +165,16 @@ header {
 .principal-noticia p,
 .noticia-secundaria p {
   text-shadow: 2px 2px #000000;
+}
+
+@media only screen and (max-width: 480px) {
+  .principal-noticia {
+    display: block;
+  }
+
+  .principal-noticia a img {
+    width: 100%;
+  }
 }
 
 /* Sessão secundária de notícias */
