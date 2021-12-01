@@ -202,19 +202,14 @@ header {
 }
 
 .lista-recentes {
-  display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .lista-recentes .noticia-secundaria p {
   width: 90%;
   top: 180px;
 }
-
-/*.item-recente {
-  width: 30%;
-  margin: 10px 42px 10px 0;
-}*/
 
 /* footer */
 
