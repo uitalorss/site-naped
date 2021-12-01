@@ -13,7 +13,7 @@ h6 {
 }
 
 .container {
-  width: 1260px;
+  width: 1280px;
   margin: 0 auto;
   padding: 0px;
   display: flex;
@@ -82,11 +82,13 @@ header {
   margin-bottom: 50px;
 }
 
+.episodio-anime img,
 .noticia img,
 .bloco-news li img {
   -webkit-mask-image: linear-gradient(to top, transparent 2%, black 95%);
 }
 
+.episodio-anime img:hover,
 .noticia img:hover,
 .bloco-news li img:hover {
   -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 0%);
@@ -209,10 +211,10 @@ header {
   top: 180px;
 }
 
-.item-recente {
+/*.item-recente {
   width: 30%;
   margin: 10px 42px 10px 0;
-}
+}*/
 
 /* footer */
 
@@ -291,4 +293,20 @@ article p {
 
 .apresentacao-anime img {
   margin-bottom: 40px;
+}
+
+/* Animes */
+
+.lista-animes {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.lista-animes .noticia-secundaria p {
+  width: 90%;
+  top: 180px;
+}
+
+.episodio-anime {
+  margin-bottom: 30px;
 }
