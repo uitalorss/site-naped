@@ -13,7 +13,7 @@ h6 {
 }
 
 .container {
-  width: 1280px;
+  width: 1180px;
   margin: 0 auto;
   padding: 0px;
   display: flex;
@@ -93,8 +93,12 @@ header {
   }
 
   .nav {
-    margin: 15px 0;
+    margin: 15px 15px 0 15px;
     padding: 10px;
+  }
+
+  .nav ul {
+    text-align: center;
   }
 
   .item-especial {
@@ -102,7 +106,7 @@ header {
   }
 
   .intro h1 {
-    margin: 5px;
+    margin: 5px 0;
     font-size: 2.25em;
   }
 
@@ -256,6 +260,33 @@ header {
   border-radius: 5px;
 }
 
+@media only screen and (max-width: 480px) {
+  .segunda-area-noticias {
+    flex-direction: column;
+  }
+  .lista-news {
+    width: 100%;
+  }
+
+  .lateral-news {
+    margin: 30px auto;
+    margin-bottom: 15px;
+  }
+
+  .lateral-news h3 {
+    text-align: center;
+  }
+
+  .info-noticia p {
+    display: none;
+  }
+
+  .link-noticia {
+    font-size: 0.8em;
+    margin-bottom: 15px;
+  }
+}
+
 /* Última sessão de notícias */
 
 .most-recents {
@@ -270,6 +301,16 @@ header {
 .lista-recentes .noticia-secundaria p {
   width: 90%;
   top: 180px;
+}
+
+@media only screen and (max-width: 480px) {
+  .most-recents h3 {
+    margin: 0 auto;
+  }
+
+  .item-recente {
+    margin: 0 auto 20px auto;
+  }
 }
 
 /* footer */
@@ -291,6 +332,13 @@ footer .title {
   margin: 20px auto;
   text-align: center;
   color: #c4c4c4;
+}
+
+@media only screen and (max-width: 480px) {
+  .conteudo-footer p {
+    width: 100%;
+    margin: 20px auto;
+  }
 }
 
 /* Notícia */
