@@ -428,6 +428,10 @@ article p {
 
 /* Animes */
 
+.apresentacao-anime img {
+  width: 1180px;
+}
+
 .lista-animes {
   flex-wrap: wrap;
   justify-content: space-between;
@@ -440,4 +444,14 @@ article p {
 
 .episodio-anime {
   margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+  .apresentacao-anime img {
+    width: 100%;
+  }
+
+  .lista-animes {
+    display: none;
+  }
 }
