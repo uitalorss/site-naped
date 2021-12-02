@@ -105,6 +105,10 @@ header {
     display: none;
   }
 
+  .intro {
+    margin: 1em 0;
+  }
+
   .intro h1 {
     margin: 5px 0;
     font-size: 2.25em;
