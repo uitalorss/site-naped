@@ -277,8 +277,9 @@ article p {
 }
 
 .apresentacao-anime input {
-  padding: 15px 0 15px 0;
-  width: 100%;
+  padding: 15px;
+  width: 97.6%;
+  color: #c4c4c4;
   background-color: #282830;
   border: none;
 }
@@ -287,6 +288,7 @@ article p {
   color: #c4c4c4;
   font-family: 'Inter', sans-serif;
   font-size: 1.25em;
+  padding: 15px;
 }
 
 .apresentacao-anime img {
@@ -365,8 +367,13 @@ article p {
   }
 
   .nav {
-    margin: 15px 12px 0 12px;
+    margin-top: 15px;
     padding: 10px;
+  }
+
+  .nav ul {
+    margin: 0 auto;
+    text-align: center;
   }
 
   .nav ul {
@@ -531,5 +538,22 @@ article p {
 
   .cards-secundarios .noticia:nth-child(1) {
     margin-right: 2em;
+  }
+
+  .ilustracao img {
+    width: 100%;
+  }
+
+  .apresentacao-anime img {
+    width: 100%;
+  }
+
+  .content {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .info-erro {
+    margin: 0 5px 60px 5px;
   }
 }
