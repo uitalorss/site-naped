@@ -1,0 +1,32 @@
+.content-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 0;
+}
+
+.logo {
+  color: $purple-prime;
+  font-size: 2em;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  gap: 2.5em;
+  a{
+    color: #c4c4c4;
+    text-decoration: none;
+    list-style: unset;
+    padding: 8px 15px;
+    &:hover{
+      color: #ffffff;
+    }
+  }
+
+  .item-especial{
+    border: 1px solid #8257e6;
+    border-radius: 25px;
+    padding: 8px 15px;
+  }
+}

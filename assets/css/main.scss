@@ -1,0 +1,32 @@
+$purple-prime: #8257e6;
+
+@import 'reset';
+@import 'header';
+@import 'home';
+
+
+
+body {
+  background-color: #13131f;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+
+
+
+
