@@ -58,13 +58,30 @@
 //area-secundaria
 .secondary-area{
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 3fr 1fr;
   .list-news{
     display: grid;
     gap: 2em;
     .news-item{
       display: flex;
       gap: 1em;
+      li{
+        color: #ffffff;
+        margin-bottom: 5px;
+        line-height: 1.5em;
+        p{
+          color: $text-light;
+        }
+      }
+      .link-noticia{
+        font-weight: 500;
+      }
+      .botao-noticia {
+        padding: 8px 5px;
+        color: #ffffff;
+        background: #8257e6;
+        border-radius: 5px;
+      }
     }
   }
 }
