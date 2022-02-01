@@ -29,6 +29,10 @@ a{
 img{
   display: block;
   max-width: 100%;
+  -webkit-mask-image: linear-gradient(to top, transparent 0%, #fff 70%);
+  &:hover{
+    -webkit-mask-image: linear-gradient(to top, transparent 0%, #fff 20%);
+  }
 }
 
 .container {

@@ -23,13 +23,6 @@
 .noticias-principais{
   display: grid;
   grid-template-columns: 3fr 1fr;
-
-  img{
-    -webkit-mask-image: linear-gradient(to top, transparent 0%, #fff 70%);
-    &:hover{
-      -webkit-mask-image: linear-gradient(to top, transparent 0%, #fff 20%);
-    }
-  }
   .card-principal{
     p{
       font-size: 1.5em;
@@ -77,11 +70,32 @@
         font-weight: 500;
       }
       .botao-noticia {
-        padding: 8px 5px;
+        margin-top: 10px;
+        padding: 8px 25px;
         color: #ffffff;
         background: #8257e6;
         border-radius: 5px;
       }
+    }
+  }
+}
+
+//area-lateral
+aside{
+  h5{
+    font-size: 1.75em;
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+
+  .aside-news{
+    p{
+      font-size: 0.75em;
+      line-height: 1.5em;
+      color: #ffffff;
+      top: -65px;
+      padding: 8px;
+      position: relative;
     }
   }
 }
