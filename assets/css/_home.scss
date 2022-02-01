@@ -99,3 +99,28 @@ aside{
     }
   }
 }
+
+.recents{
+  margin-top: 50px;
+}
+
+.most-recents{
+  h5{
+    font-size: 1.75em;
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+  .list-recents{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    p{
+      width: 80%;
+      font-size: 0.75em;
+      line-height: 1.5em;
+      color: #ffffff;
+      top: -65px;
+      padding: 8px;
+      position: relative;
+    }
+  }
+}
