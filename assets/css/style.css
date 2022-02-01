@@ -23,11 +23,6 @@
   transition: background-color .5s ease;
 }
 
-.cards-secundarios {
-  display: block;
-  margin-left: auto;
-}
-
 .noticia {
   margin-bottom: 1em;
   box-shadow: 60px teal;
