@@ -2,23 +2,26 @@
 .intro {
   margin: 2.5em 0;
   color: #ffffff;
-}
-
-.intro div {
-  display: block;
-  padding: 1em 0;
-}
-
-.intro h1 {
-  font-size: 2.5em;
-  line-height: 1.5em;
-}
-
-.paragrafo {
-  width: 50%;
-  color: #c4c4c4;
-  font-size: 1.25em;
-  line-height: 2em;
+  div {
+    display: block;
+    padding: 1em 0;
+    h1 {
+      font-size: 2.5em;
+      line-height: 1.5em;
+    }
+  }
+  .paragrafo {
+    width: 50%;
+    color: #c4c4c4;
+    font-size: 1.25em;
+    line-height: 2em;
+  }
+  @media only screen and (max-width: 1180px){
+    margin: 1.5em 0;
+    .paragrafo {
+      width: 80%;
+    }
+  }
 }
 
 //area-principal
@@ -48,6 +51,17 @@
       position: relative;
     }
   }
+  @media only screen and (max-width: 1180px){
+    grid-template-columns: 1fr;
+    .cards-secundarios{
+      display: flex;
+      flex-direction: row;
+      gap: 2.5em;
+      p{
+        width: 85%;
+      }
+    }
+  }
 }
 
 //area-secundaria
@@ -72,7 +86,6 @@
             margin-bottom: .5em;
           }
         }
-
       }
       .link-noticia{
         font-weight: 500;
@@ -80,8 +93,18 @@
       .botao-noticia {
         @include config-botao
       }
+      @media only screen and (max-width: 1180px){
+        p {
+          display: none;
+        }
+        .link-noticia{
+          font-weight: 300;
+          margin-bottom: 20px;
+        }
+      }
     }
   }
+
 }
 
 //area-lateral
@@ -132,7 +155,12 @@ aside{
       padding: 8px;
       position: relative;
     }
+    @media only screen and (max-width: 1180px){
+      grid-template-columns: 1fr 1fr;
+      gap: 0 2.5em;
+    }
   }
+
 }
 
 //footer
@@ -149,5 +177,10 @@ footer {
     text-align: center;
     color: #c4c4c4;
     line-height: 1.5em;
+  }
+  @media only screen and (max-width: 1180px){
+    p {
+      width: 60%;
+    }
   }
 }
