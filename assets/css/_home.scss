@@ -1,6 +1,6 @@
 //Intro do site
 .intro {
-  margin: 3em 0;
+  margin: 2.5em 0;
   color: #ffffff;
 }
 
@@ -11,11 +11,13 @@
 
 .intro h1 {
   font-size: 2.5em;
+  line-height: 1.5em;
 }
 
 .paragrafo {
-  width: 40%;
+  width: 50%;
   color: #c4c4c4;
+  font-size: 1.25em;
   line-height: 2em;
 }
 
@@ -59,6 +61,7 @@
       display: flex;
       gap: .5em;
       li{
+        width: 95%;
         color: #ffffff;
         margin-bottom: 5px;
         line-height: 1.5em;
@@ -75,10 +78,7 @@
         font-weight: 500;
       }
       .botao-noticia {
-        padding: 8px 25px;
-        color: #ffffff;
-        background: #8257e6;
-        border-radius: 5px;
+        @include config-botao
       }
     }
   }

@@ -10,10 +10,18 @@ $text-light: #c4c4c4;
   margin-top: 8px;
 }
 
+@mixin config-botao{
+  padding: 8px 25px;
+  color: #ffffff;
+  background: #8257e6;
+  border-radius: 5px;
+}
+
 @import 'reset';
 @import 'header';
 @import 'home';
 @import 'news';
+@import 'not-found';
 
 
 
@@ -48,6 +56,13 @@ img{
 .container {
   width: 1180px;
   margin: 0 auto;
+  @media only screen and (max-width: 1180px){
+    width: 780px;
+  }
+
+  @media only screen and (max-width: 430px){
+    width: 100%;
+  }
 }
 
 

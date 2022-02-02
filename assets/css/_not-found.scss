@@ -1,0 +1,38 @@
+.content-not-found{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  p{
+    font-size: 1.125em;
+    line-height: 2em;
+    color: $text-light;
+  }
+  .info-erro{
+    display: grid;
+    gap: 2em;
+    h1{
+      font-size: 2.5em;
+      color: #ffffff;
+      width: 75%;
+      line-height: 1.5em;
+    }
+    p{
+      width: 80%;
+    }
+    .botao{
+      @include config-botao;
+    }
+  }
+
+  .img-erro{
+    display: grid;
+    justify-content: center;
+    gap: 2em;
+    p{
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+}

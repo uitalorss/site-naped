@@ -29,4 +29,7 @@
     border-radius: 25px;
     padding: 8px 15px;
   }
+  @media only screen and (max-width: 1180px){
+    gap: 0.5em;
+  }
 }
