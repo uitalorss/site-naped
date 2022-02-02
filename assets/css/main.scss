@@ -1,6 +1,15 @@
 $purple-prime: #8257e6;
 $text-light: #c4c4c4;
 
+@mixin title-effect($value){
+  content: "";
+  display: block;
+  height: 3px;
+  width: $value;
+  background: $purple-prime;
+  margin-top: 8px;
+}
+
 @import 'reset';
 @import 'header';
 @import 'home';
@@ -40,6 +49,7 @@ img{
   width: 1180px;
   margin: 0 auto;
 }
+
 
 
 

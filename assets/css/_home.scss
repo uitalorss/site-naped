@@ -90,6 +90,9 @@ aside{
     font-size: 1.75em;
     margin-bottom: 15px;
     color: #ffffff;
+    &:after{
+      @include title-effect(80%);
+    }
   }
 
   .aside-news{
@@ -113,6 +116,9 @@ aside{
     font-size: 1.75em;
     margin-bottom: 15px;
     color: #ffffff;
+    &:after{
+      @include title-effect(30%);
+    }
   }
   .list-recents{
     display: grid;
