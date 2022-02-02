@@ -1,3 +1,7 @@
+![Github repo size](https://img.shields.io/github/repo-size/uitalorss/site-naped)
+![GitHub language count](https://img.shields.io/github/languages/count/uitalorss/site-naped)
+![Github last commit](https://img.shields.io/github/last-commit/uitalorss/site-naped)
+
 ## Resumo
 
 Desenvolvimento de uma interface que remeta a um site de notícias relacionadas a cultura pop oriental.
@@ -7,9 +11,8 @@ Desenvolvimento de uma interface que remeta a um site de notícias relacionadas 
 ## Tecnologias
 
 - HTML
-- CSS
+- SASS
 - Javascript
-- Bootstrap
 
 ## Objetivo
 
