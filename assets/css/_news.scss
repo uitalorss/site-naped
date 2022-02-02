@@ -1,0 +1,32 @@
+.content-noticia{
+  .info-noticia{
+    display: grid;
+    gap: 1em;
+    margin-top: 60px;
+    h2{
+      line-height: 1.5em;
+      font-size: 2em;
+      color: #ffffff;
+    }
+    p{
+      color: $text-light;
+      &.subtitulo{
+        font-size: 1.25em;
+      }
+      &.data{
+        font-size: 0.875em;
+        font-weight: 300;
+      }
+    }
+  }
+  article{
+    margin: 40px 0;
+    display: grid;
+    gap: 2em;
+    p{
+      font-size: 1.25em;
+      line-height: 2em;
+      color: $text-light;
+    }
+  }
+}
