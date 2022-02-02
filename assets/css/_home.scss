@@ -57,20 +57,24 @@
     gap: 2em;
     .news-item{
       display: flex;
-      gap: 1em;
+      gap: .5em;
       li{
         color: #ffffff;
         margin-bottom: 5px;
         line-height: 1.5em;
         p{
+          font-size: .875em;
           color: $text-light;
+          &.data{
+            margin-bottom: .5em;
+          }
         }
+
       }
       .link-noticia{
         font-weight: 500;
       }
       .botao-noticia {
-        margin-top: 10px;
         padding: 8px 25px;
         color: #ffffff;
         background: #8257e6;
