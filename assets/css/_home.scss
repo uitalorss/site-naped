@@ -53,11 +53,23 @@
   }
   @media only screen and (max-width: 1180px){
     grid-template-columns: 1fr;
+    .card-principal{
+      img{
+        margin: 0 auto;
+      }
+      p{
+        margin: 10px;
+      }
+    }
     .cards-secundarios{
       display: flex;
       flex-direction: row;
       gap: 2.5em;
+      img{
+        margin: 0 auto;
+      }
       p{
+        margin: 10px;
         width: 85%;
       }
     }
@@ -128,6 +140,23 @@ aside{
       position: relative;
     }
   }
+
+  @media only screen and (max-width: 1180px){
+    h5{
+      font-size: 1.5em;
+      margin-bottom: 15px;
+      color: #ffffff;
+      &:after{
+        @include title-effect(90%);
+      }
+    }
+    .aside-news{
+      p {
+        font-size: 0.675em;
+        top: -65px;
+      }
+    }
+  }
 }
 
 .recents{
@@ -158,6 +187,18 @@ aside{
     @media only screen and (max-width: 1180px){
       grid-template-columns: 1fr 1fr;
       gap: 0 2.5em;
+      h5{
+        font-size: 1.5em;
+        &:after{
+          @include title-effect(30%);
+        }
+      }
+      img{
+        margin: 0 auto;
+      }
+      p{
+        margin: 10px;
+      }
     }
   }
 
