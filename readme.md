@@ -2,6 +2,8 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/uitalorss/site-naped)
 ![Github last commit](https://img.shields.io/github/last-commit/uitalorss/site-naped)
 
+![imagem-projeto](assets/img/img-projeto.png)
+
 ## Resumo
 
 Desenvolvimento de uma interface que remeta a um site de notícias relacionadas a cultura pop oriental.
