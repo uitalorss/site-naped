@@ -1,6 +1,10 @@
 .content-not-found{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  @media only screen and (max-width: 430px){
+    margin-top: 30px;
+    display: block;
+  }
   height: 600px;
   justify-content: center;
   align-items: center;
@@ -11,15 +15,24 @@
   }
   .info-erro{
     display: grid;
+    @media only screen and (max-width: 430px){
+      margin-bottom: 50px;
+    }
     gap: 2em;
     h1{
       font-size: 2.5em;
       color: #ffffff;
       width: 75%;
       line-height: 1.5em;
+      @media only screen and (max-width: 430px){
+        font-size: 1.5em;
+      }
     }
     p{
       width: 80%;
+      @media only screen and (max-width: 430px){
+        width: 100%;
+      }
     }
     .botao{
       @include config-botao;
