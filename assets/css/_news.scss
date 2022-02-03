@@ -7,6 +7,9 @@
       line-height: 1.5em;
       font-size: 2em;
       color: #ffffff;
+      @media only screen and (max-width: 430px){
+        font-size: 1.5em;
+      }
     }
     p{
       color: $text-light;
@@ -27,6 +30,10 @@
       font-size: 1.25em;
       line-height: 2em;
       color: $text-light;
+      @media only screen and (max-width: 430px){
+        font-size: .875em;
+      }
     }
+
   }
 }
